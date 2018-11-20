@@ -407,6 +407,12 @@ a > badge {
     z-index: 1;
 }
 
+
+.description, .card-description, .info p {
+    color: #3C4858; 
+}
+
+
 @media (min-width: 1em) {
     .card-columns {
         -webkit-column-count: 1;
@@ -442,7 +448,7 @@ a > badge {
     }
 
     .comp {
-        height: 300px;
+        height: 250px;
     }
 
 }
@@ -487,10 +493,37 @@ a > badge {
 
 }
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    
+
+
+@media (min-height: 1px) {
+    .comp {
+        display: none;
+    }
+
+    #typeitNoComp {
+
+        position: absolute;
+        top: 33%;
+        font-size: 50px;
+        height: 100%;
+        width:auto;
+        line-height: 1.4em;
+        color: ghostwhite;
+
+    }
 }
+
+@media (min-height: 500px) {
+    .comp {
+        display: block;
+    }
+
+    #typeitNoComp {
+        display:none;
+    }
+
+}
+
 
 
 

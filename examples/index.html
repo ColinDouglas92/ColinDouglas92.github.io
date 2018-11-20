@@ -109,6 +109,10 @@
                             </div>
                         </div>
 
+                        
+                            <p id="typeitNoComp"></p>
+                        
+
                     </div>
 
 
@@ -371,10 +375,7 @@
             .pause(1000)
             .type(",")
             .break()
-            .type('I&#39;m a SQL Server DBA.')
-            .pause(1000)
-            .delete(15)
-            .type('Game Developer.')
+            .type('a SQL Server DBA.')
             .pause(1000)
             .delete(15)
             .type('Web Developer.')
@@ -383,6 +384,35 @@
             .type('Mobile Developer.')
             .pause(1000)
             .delete(17)
+            .type('Game Developer.')
+            .pause(1000)
+            .delete(15)
+            .type('SQL Server DBA.');
+
+        new TypeIt('#typeitNoComp', {
+            strings: 'Hello!',
+            speed: 100,
+            autoStart: true
+        })
+            .pause(1000)
+            .delete()
+            .pause(1000)
+            .type('I&#39;m <b>Colin Douglas</b>')
+            .pause(1000)
+            .type(",")
+            .break()
+            .type('a SQL Server DBA.')
+            .pause(1000)
+            .delete(15)
+            .type('Web Developer.')
+            .pause(1000)
+            .delete(14)
+            .type('Mobile Developer.')
+            .pause(1000)
+            .delete(17)
+            .type('Game Developer.')
+            .pause(1000)
+            .delete(15)
             .type('SQL Server DBA.');
     </script>
     <script>
