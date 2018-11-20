@@ -513,7 +513,7 @@ a > badge {
     }
 }
 
-@media (min-height: 500px) {
+@media (min-height: 550px) {
     .comp {
         display: block;
     }
