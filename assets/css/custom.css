@@ -369,7 +369,7 @@ h1, h2, h3, h4 {
 
 
 .nav-pills .nav-item .nav-link.active {
-    background-color: dodgerblue;
+    background-color: rgb(15, 72, 127);
 }
 
 .zoom {
@@ -381,15 +381,15 @@ h1, h2, h3, h4 {
     }
 
 a {
-    color: dodgerblue;
+    color: rgb(15, 72, 127);
 }
 
     a:hover {
-        color: dodgerblue;
+        color: rgb(15, 72, 127);
     }
 
     a:visited {
-        color: dodgerblue;
+        color: rgb(15, 72, 127);
     }
 
 a > badge {
@@ -410,6 +410,10 @@ a > badge {
 
 .description, .card-description, .info p {
     color: #3C4858; 
+}
+
+.btn.btn-primary {
+    background-color: rgb(15, 72, 127);
 }
 
 
