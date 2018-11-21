@@ -388,9 +388,6 @@ a {
         color: rgb(15, 72, 127);
     }
 
-    a:visited {
-        color: rgb(15, 72, 127);
-    }
 
 a > badge {
     color: ghostwhite;
