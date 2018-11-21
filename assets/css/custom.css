@@ -413,6 +413,11 @@ a > badge {
     background-color: rgb(15, 72, 127);
 }
 
+.section-contacts {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 
 @media (min-width: 1em) {
     .card-columns {
@@ -437,8 +442,6 @@ a > badge {
     .comp .monitor {
         width: 90%;
     }
-
-
 
     .base {
         width: 100%;
