@@ -8903,16 +8903,16 @@ button:focus {
 
 .btn.btn-primary:hover {
   color: #fff;
-  background-color: #9124a3;
-  border-color: #701c7e;
+  background-color: rgb(15, 72, 127);
+  border-color: rgb(15, 72, 127);
 }
 
 .btn.btn-primary:focus,
 .btn.btn-primary.focus,
 .btn.btn-primary:hover {
   color: #fff;
-  background-color: #9124a3;
-  border-color: #701c7e;
+  background-color: rgb(15, 72, 127);
+  border-color: rgb(15, 72, 127);
 }
 
 .btn.btn-primary:active,
