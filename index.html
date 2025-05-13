@@ -342,20 +342,28 @@
                 <div class="col-md-8 ml-auto mr-auto">
                     <h2 class="text-center title">Contact Me</h2>
                     <h4 class="text-center description">Please feel free to reach out to me with any questions or opportunities</h4>
-                    <form class="contact-form" method="POST" action="https://formspree.io/colindouglas_25@hotmail.com">
-                        <input type="hidden" name="_next" value="#" />
+                    <form class="contact-form" method="POST" action="https://formspree.io/f/colindouglas_25@hotmail.com">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="bmd-label-floating">Your Name</label>
+                                    <input type="text" name="name" class="form-control" required>
+                                </div>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label class="bmd-label-floating">Your Email</label>
-                                    <input type="email" name="email" class="form-control">
+                                    <input type="email" name="email" class="form-control" required>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="exampleMessage" class="bmd-label-floating">Your Message</label>
-                            <textarea type="message" name="message" class="form-control" rows="4" id="exampleMessage"></textarea>
+                            <textarea name="message" class="form-control" rows="4" id="exampleMessage" required></textarea>
                         </div>
+                        <input type="hidden" name="_next" value="https://www.colindouglas.com/thank-you.html" />
                         <div class="row">
                             <div class="col-md-4 ml-auto mr-auto text-center">
                                 <button class="btn btn-primary btn-raised" type="submit">
